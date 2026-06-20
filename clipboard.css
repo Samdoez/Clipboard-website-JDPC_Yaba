@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+} 
+.top-img{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+.header-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1.5em;
+}
+.logo-img{
+    transform: scale(0.7);
+}
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.logo h1, .cth1{
+    color: hsl(210, 10%, 33%);
+}
+.content{
+    width: 100%;
+    height: 35vh;
+    flex-direction: column;
+    gap: 2em;
+}
+.clip-text{
+    width: 40%;
+    text-align: center;
+}
+.clip-text p, p{
+    text-align: center;
+    color: hsl(201, 11%, 66%)
+}
+.download{
+    gap: 2em;
+    width: 40vw;
+    height: 10vh;
+}
+a{
+    text-decoration: none;
+}
+.dload{
+    border-radius: 30px;
+    width: 14vw;
+    height: 8vh;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    box-shadow: 2px 4px 5px rgba(22, 22, 22, 0.646);
+}
+.dblue{
+    background-color: hsl(233, 100%, 69%);
+}
+.content-clip-text{
+    width: 40%;
+    text-align: center;
+    gap: 1em;
+    flex-direction: column;
+}
+.jumbotron{
+    /* background-color: rgb(163, 30, 30); */
+    width: 100%;
+    height: 80vh;
+}
+.jb-img-cont{
+    width: 80%;
+    height: 75vh;
+    /* background-color: yellow; */
+    transform: translateX(-5%);
+}
+.jb-img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+.jtext{  
+    width: 60%;
+    height: 75vh;
+    text-align: center;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+}
+.jtcontent{
+    text-align: left;
+    width: 60%;
+    height: 15vh;
+}
+.jtcontent p{
+    text-align: left;
+}
+.tab{
+    width: 100%;
+    height: 85vh;
+}
+.tab-img{
+    width: 100%;
+    height: 100%    ;
+    object-fit: contain;
+}
+.features{  
+    width: 100%;
+    height: 45vh;
+    gap: 2em;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+.ftcontent h3{
+    color: hsl(210, 10%, 33%);
+}
+.ftcontent{
+    width: 25%;
+    height: 25vh;
+    text-align: center;
+    background-color: white;
+    gap: 0.8em;
+    flex-direction: column;
+}
+.spcontent{
+    width: 15%;
+    height: 15vh;
+    background-color: white;
+    gap: 0.8em;
+}
+.content2{
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    gap: 2em;
+}
+.foot-content{
+    background-color: hsl(0, 0%, 94%);    
+    width: 100%;
+    height: 25vh; 
+    width: 100%;  
+    gap: 2em;
+}
+.logo2{
+    width: 10vw;
+    height: 20vh;
+}
+.logo-img2{
+    transform: scale(0.5);
+}
+.gridd{
+    width: 60vw;
+    height: 15vh;
+}
+.foot-icons{
+    width: 10vw;
+    height: 20vh;
+    gap: 1em;
+}
+.gridd {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 1em;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1em; 
+}
+.footer-column a {
+  color: #3b6b87; 
+  font-size: 1em
+}
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.attribution{
+    background-color: hsl(0, 0%, 94%);    
+    width: 100%;
+    height: 5vh; 
+}

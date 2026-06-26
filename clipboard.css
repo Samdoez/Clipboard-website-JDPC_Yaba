@@ -184,7 +184,12 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     padding: 1em;
-    }
+}
+footer{
+    background-color: hsl(0, 0%, 94%); 
+    width: 100%;
+    height: 7vh;
+}
 .footer-column {
   display: flex;
   flex-direction: column;
